@@ -1,0 +1,59 @@
+
+        /* Add your custom CSS styles here */
+        .videos {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+          }
+          
+        .video {
+            width: 350px;
+            margin-bottom: 30px;
+            padding: 5px; 
+        }
+
+        .thumbnail {
+            width: 100%;
+            height: 220px;
+        }
+
+        .thumbnail img {
+            object-fit: cover;
+            height: 96%;
+            width: 100%;
+            border-radius: 15px;
+        }
+
+
+.detail {
+    display: flex;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+  }
+  .author {
+    margin-top: 4px;
+}
+.author img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 13px;
+}
+
+.title h3 {
+    color: rgb(3, 3, 3);
+    line-height: 10px;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.title a,span {
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+}
+
